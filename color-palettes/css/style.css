@@ -1,0 +1,94 @@
+#slither{
+   font-family: cursive; 
+   text-align: center;
+}
+
+#hiss-1 {
+    background-color:#1DE254;
+    color: #769A75;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#slither-2{
+    background-color: #769A75;
+    color: #1DE254;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#slither-3 {
+    background-color: #f3fcf2;
+    color: #1DE254;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#spice {
+    font-family: monospace;
+    text-align: center;
+}
+
+#pumpkin-1 {
+    background-color: #EE7B30;
+    color: #cbcbd4;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#witchy-1 {
+    background-color: #885a89;
+    color: #EE7B30;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#cloudy-1 {
+    background-color: #cbcbd4;
+    color:#885a89;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#fruit {
+    font-family: fantasy;
+    text-align: center;
+}
+
+#pinkstraw {
+    background-color: #ff6f91;
+    color: #845ec2;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#magenta {
+    background-color: #d65db1;
+    color: #ff9671;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#purple {
+    background-color: #845ec2;
+    color: #ff9671;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+
+#peach {
+    background-color: #ff9671;
+    color: #845ec2;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
