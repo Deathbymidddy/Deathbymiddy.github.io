@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    flex: 0;
+}
+
+#sidebar-content ul li{
+    padding: 50px 0px;
+    margin: 2px 5px;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-content {
+    flex: 3;
+    padding: 50px;
+    border: 2px dotted black;
+    background-color: dodgerblue;
+    color: mintcream;
+}
