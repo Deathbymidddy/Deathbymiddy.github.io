@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 400px 100px 1fr;
+}
+#sidebar-content {
+    padding: 50px 30px;
+    background-color:darkslateblue;
+    color: darkslateblue;
+}
+#sidebar-content h2 {
+    background-color: goldenrod;
+    margin: 35px;
+    padding: 50px;
+    color: darkslateblue;
+    font-size: 18px;
+    border: 2px double gold;
+}
+#sidebar-content ul {
+    background-color:goldenrod;
+    margin: 0px 0px 36px;
+    list-style-type: armenian;
+}
+#sidebar-content a {
+    color: darkslateblue;
+    text-decoration: none;
+}
+#main-content {
+    padding: 50px 50px;
+    background-color: darkslateblue;
+}
