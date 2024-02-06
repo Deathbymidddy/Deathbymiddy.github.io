@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0E0E0;
+    color: #111111;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-areas: 
+        ". column-area-1 column-area-2 column-area-3 .";
+}
+
+#column-1 {
+    background-color: white;
+    padding: 0px 12px;
+    grid-area: column-area-1;
+}
+
