@@ -8,10 +8,9 @@
     of the setup.css styling if you do so.
 */
 .card-style-2 {
-    max-width: 350px;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: white;
-    border-radius: 35px;
+    width: 350px;
+    background-color:white;
+    border-radius: 50px;
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -25,10 +24,21 @@
 }
 .card-style-2 p {
     text-align: center;
-    justify-content: center;
     font-weight: 500px;
 }
 .card-style-2 h2 {
     text-align: center;
     display: flexbox;
 }
+.card-style-2 .animagram-footer i {
+    display: block;
+    justify-content: baseline;
+}
+.card-style-2 .animagram-header span {
+    display: inline;
+    justify-content: space-between;
+}   
+
+
+
+
