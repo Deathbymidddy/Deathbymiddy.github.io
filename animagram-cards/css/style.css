@@ -16,6 +16,7 @@
     flex-wrap: wrap;
 }
 
+
 .card-style-2 img {
     width: 60%;
     border-radius: 50%;
@@ -30,9 +31,9 @@
     text-align: center;
     display: flexbox;
 }
-.card-style-2 .animagram-footer i {
-    display: block;
-    justify-content: baseline;
+.card-style-2 .animagram-footer span {
+    display: inline-block;
+    
 }
 .card-style-2 .animagram-header span {
     display: inline;
