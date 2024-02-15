@@ -5,7 +5,8 @@
 }
 body {
     margin: 0px;
-    font-family: "Anton", sans-serif;;
+    font-family: "Anton", sans-serif;
+    background-color: aquamarine;
 }
 #hero {
     background-image: url(../images/frames-for-your-heart-buM-pb_Nftg-unsplash.jpg);
@@ -16,6 +17,7 @@ body {
     justify-content: center;
     padding: 24px;
     box-shadow: 4px 4px 12px aqua;
+    margin: 5px auto;
 }
 #hero h1 {
     font-size: 5vh;
@@ -25,8 +27,9 @@ body {
     color: aqua;
     font-weight: lighter;
     font-style: italic;
-    font-size: 1.5vh;
+    font-size: 25px;
     text-decoration: overline;
+    letter-spacing: 0.5rem;
 }
 #hero a {
     font-size: 2vh;
@@ -41,35 +44,48 @@ body {
 #hero a:hover {
     color: antiquewhite;
 }
+#gallery h3{
+    text-align: center;
+    font-size: 5vh;
+    margin: 5px auto;
+    text-decoration: underline;
+    color: black
+}
+.hero-content p {
+    color: aqua;
+    font-family: sans-serif;
+}
 
 .cropped-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 200px;
+    grid-auto-rows: 300px;
+    margin: 5px 5px auto;
     padding: 24px;
     gap: 24px;
-    border: 10px solid black;
     background: linear-gradient(to left, aqua, transparent);
+    background-position: center;
 }
 .cropped-grid-gallery img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .card{
-    width: 350px; 
-    border: 2px solid aqua;
+    width: 450px; 
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 4px 4px 12px aqua; 
-    background: linear-gradient(
-        -50deg,
-        aqua,
-        aquamarine
-    );
-    display: flex;
+    background-color: #333;
+    display: inline-block;
     flex-direction: column;
+    margin: 5px;
+    padding: 24px;
+    gap: 24px;
+}
+.card h2 {
+    color: aquamarine;
+    text-align: center;
 }
 .card img {
     width: 100%;
@@ -77,20 +93,27 @@ body {
     object-fit: cover;
 }
 .card a {
-    color: black;
-    text-decoration: none;
+    color:aquamarine;
+    text-decoration: wavy;
     font-size: 20px;
     font-weight: bold;
-    display: flex;
-    width: 100%;
-    padding: 10px;
+    display: inline;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 5px;
     text-align: center;
     border: 3px solid white;
     transition: 
         background-color 0.5s,
         color 0.5s;
 }
+.card p {
+    color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+}
 .card a:hover {
     background-color: transparent;
     color: white;
 }
+
