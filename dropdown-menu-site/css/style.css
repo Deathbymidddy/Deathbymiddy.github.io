@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+}
+#navbar {
+    background: linear-gradient(to bottom, black, brown);
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    z-index: 1;
+}
+.navbar-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px brown;
+    z-index: 1;
+}
+.navbar-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.navbar-content a:hover {
+    background-color: white;
+}
+
+.navbar-content:hover .navbar-content {
+    display: block;
+}
+
+#hero {
+    background-image: url(../images/animal\ shelter\ hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+}
+#hero h1 {
+    font-size: 5vw;
+    padding: 10vw;
+}
