@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
+@media screen and (max-width: 480px) {
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -68,7 +72,7 @@ body {
     background-color: #a7956f;
 }
 .gallery-content img {
-    height: 300px;
+    height: 200px;
     flex: 1;
     object-fit: cover;
 }
@@ -107,4 +111,77 @@ body {
     display: block;
     width: 100%;
     padding: 20px;
+}
+
+#container-2-5 {
+    background-image: url(../images/restaurant_hero-2.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-2-5 h1 {
+    font-size: 10vw;
+    color: #1b2d52;
+}
+
+#container-2-5 a {
+    text-decoration: none;
+    display: inline-block;
+    color:#1b2d52;
+    align-items: center;
+    justify-content: center;
+    font-size:2.5vw;
+    background-color: #a7956f;
+    padding: 10px;
+    margin: 5px;
+}
+
+#menu {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns:1fr 1fr 1fr;
+    background-color: #1b2d52;
+}
+#menu a {
+    transition: 
+        background-color 0.3s,
+        box-shadow 0.3s,
+        transform 0.3s;
+}
+
+#menu:hover a {
+    background-color: #1b2d52;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}
+
+.menu-content h1 {
+    color: #a7956f;
+}
+
+.menu-content p {
+    color: #a7956f;
+}
+
+.menu-content {
+    flex: 200px;
+    border: 3px solid #a7956f;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+.menu-content img{
+    width: 150px;
+}
+.menu-content a {
+    text-decoration: none;
+    color: #a7956f;
+    display: block;
+    border: 3px solid black;
+    padding: 24px;
+    margin-top: 36px;
 }
