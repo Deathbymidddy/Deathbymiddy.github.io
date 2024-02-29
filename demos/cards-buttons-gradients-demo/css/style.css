@@ -61,12 +61,4 @@ body {
     padding: 10px;
     text-align: center;
     border: 3px solid yellow;
-    transition: 
-        background-color 0.5s,
-        color 0.5s;
-}
-
-.card a:hover {
-    background-color: transparent;
-    color: yellow;
 }
