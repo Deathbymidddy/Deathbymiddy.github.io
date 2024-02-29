@@ -49,7 +49,8 @@ body {
 
 #container-2 h1{
     font-size: 10vw;
-    color: #1b2d52;
+    color: burlywood;
+    font-style: italic;
 }
 
 #container-2 a {
@@ -63,6 +64,7 @@ body {
     margin: 5vh 5vw 10vh 0px;
     padding: 10px;
 }
+
 
 .gallery-content {
     display: flex;
@@ -78,36 +80,35 @@ body {
 }
 
 .card-style {
-    width: 350px;
-    padding: 10px;
+    display: grid;
     flex-wrap: wrap;
-    display: flex;
-    box-shadow: 4px 4px 12px black;
-    margin: 4px;
+    grid-template-columns:1fr 1fr 1fr;
     background-color: #1b2d52;
-    justify-content: center;
-    font-weight: bold;
-    border-radius: 25px;
-    color: #a7956f;
+    border: 2px solid #a7956f;
 }
 
 .card-style img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    justify-content: center;
+    width: 250px;
+    height: 100%;
+    object-fit: contain;
+    padding: 0px;
 }
-
+.card-style p {
+    display: flex;
+    margin: 5px 0px;
+    color: #a7956f;
+}
 .card-style h2 {
     text-align: center;
+    color: #a7956f;
 }
 
 .card-style a {
-    color: #a7956f;
+    color: #1b2d52;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    background-color: white;
+    background-color: #a7956f;
     display: block;
     width: 100%;
     padding: 20px;
