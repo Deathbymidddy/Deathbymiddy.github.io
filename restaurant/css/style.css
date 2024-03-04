@@ -19,7 +19,7 @@ body {
 }
 
 #content {
-    background: linear-gradient(to top, #1b2d52, #a7956f);
+    background-color: #a7956f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 #content a {
     text-decoration: none;
     color: ghostwhite;
-    padding: 15px;
+    padding: 24px;
 }
 #content img {
     width: 250px;
@@ -49,42 +49,54 @@ body {
 
 #container-2 h1{
     font-size: 10vw;
-    color: burlywood;
+    color:black;
     font-style: italic;
 }
 
 #container-2 a {
     text-decoration: none;
     display: inline-block;
-    color:#1b2d52;
+    color:wheat;
     align-items: center;
     justify-content: center;
     font-size:2.5vw;
-    background-color: #a7956f;
-    margin: 5vh 5vw 10vh 0px;
+    background-color: #1b2d52;
     padding: 10px;
 }
 
+#container-2 a {
+    transition: 
+        background-color 0.3s,
+        box-shadow 0.3s,
+        transform 0.3s;
+}
 
-.gallery-content {
+#container-2:hover a {
+    background-color:#a7956f;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}
+#gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     border: 2px solid black;
     background-color: #a7956f;
+    padding: 24px;
 }
-.gallery-content img {
+#gallery img {
     height: 200px;
     flex: 1;
     object-fit: cover;
 }
 
 .card-style {
-    display: grid;
+    display: flexbox;
     flex-wrap: wrap;
-    grid-template-columns:1fr 1fr 1fr;
     background-color: #1b2d52;
     border: 2px solid #a7956f;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-style img {
@@ -125,19 +137,33 @@ body {
 
 #container-2-5 h1 {
     font-size: 10vw;
-    color: #1b2d52;
+    color: wheat;
 }
 
 #container-2-5 a {
     text-decoration: none;
-    display: inline-block;
-    color:#1b2d52;
+    display: flexbox;
+    color:wheat;
     align-items: center;
     justify-content: center;
     font-size:2.5vw;
-    background-color: #a7956f;
+    background-color: #1b2d52;
     padding: 10px;
     margin: 5px;
+    border: 2px solid black;
+}
+
+#container-2-5 a {
+    transition: 
+        background-color 0.3s,
+        box-shadow 0.3s,
+        transform 0.3s;
+}
+
+#container-2-5:hover a {
+    background-color: #a7956f;
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
 }
 
 #menu {
@@ -153,8 +179,8 @@ body {
         transform 0.3s;
 }
 
-#menu:hover a {
-    background-color: #1b2d52;
+.menu-content:hover a {
+    background-color: wheat;
     box-shadow: 4px 4px 4px #0003;
     transform: translateY(-4px);
 }
